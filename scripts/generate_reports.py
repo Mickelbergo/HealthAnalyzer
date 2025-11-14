@@ -30,7 +30,8 @@ def generate_all_reports():
 
     # Load data
     print("Loading health data...")
-    loader = HealthDataLoader("files")
+    data_dir = Path(__file__).parent.parent / "data" / "processed" / "files"
+    loader = HealthDataLoader(str(data_dir))
     all_data = loader.load_all_daily_metrics()
     sleep_data = loader.get_sleep_duration()
 
