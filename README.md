@@ -56,6 +56,12 @@ Steady, sustainable weight loss over 8 months with clear downward trend.
 
 10.1% improvement in running pace - 35 seconds faster per kilometer.
 
+### Running & Heart-Rate metrics Dashboard
+![Dashboard_metrics](docs/image.png)
+
+Current Issue: Running distance is calculated wrong.
+
+
 ### TDEE & Calorie Balance
 ![TDEE Analysis](docs/tdee_analysis.png)
 
