@@ -141,7 +141,9 @@ Sleep duration averages below the recommended 7-9 hours for adults, with only 38
 ### Activity Metrics
 - **Average Daily Steps:** 16,057 steps
 - **Days with 10,000+ Steps:** 83% (196 out of 236 days)
-- **Total Distance Tracked:** Walking/Running data available for analysis period
+- **Average Daily Distance:** 13.4 km (walking + running combined)
+
+**Important Note:** The distance metric represents **total daily walking and running distance**, not just dedicated running workouts. This includes all movement throughout the day tracked by Apple Watch. Dedicated running activities are identified separately using running speed data.
 
 ### Analysis
 Activity levels significantly exceed the commonly recommended 10,000 steps per day target. This high activity level contributes directly to the elevated TDEE of ~2,940 kcal/day.

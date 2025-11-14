@@ -790,6 +790,13 @@ def create_running_analysis_section():
 
     return html.Div([
         html.H3("Running & Cardiovascular Analysis", className="mb-4"),
+        dbc.Alert([
+            html.P([
+                html.Strong("Note: "),
+                "Distance shown includes all walking and running throughout the day, not just dedicated runs. "
+                "Running pace is calculated only from actual running activities (identified by running speed data)."
+            ], className="mb-0")
+        ], color="info", className="mb-3"),
         cards,
         dcc.Graph(figure=fig, config={'displayModeBar': False}),
     ])

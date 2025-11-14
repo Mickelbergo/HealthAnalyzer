@@ -70,6 +70,7 @@ Sleep duration tracking with 7-9 hour optimal range highlighted.
 ![Activity Overview](docs/activity_overview.png)
 
 High activity levels with 83% of days exceeding 10,000 steps.
+**Note:** Distance shown represents total daily walking + running (13.4 km avg), not just dedicated runs.
 
 ---
 

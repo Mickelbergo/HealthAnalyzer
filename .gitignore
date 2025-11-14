@@ -55,3 +55,7 @@ Thumbs.db
 
 #archive
 docs/archive
+
+.env
+
+.claude
