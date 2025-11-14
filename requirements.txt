@@ -1,0 +1,25 @@
+# FastAPI and REST API dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+python-multipart==0.0.20
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.0
+
+# Apple Health parsing
+apple-health-parser==1.1.2
+
+# Visualization and Dashboard
+plotly==5.24.1
+dash==2.18.2
+dash-bootstrap-components==1.6.0
+
+# Analysis
+scipy==1.14.1
+scikit-learn==1.5.2
+statsmodels==0.14.4
+
+# GPX file processing
+gpxpy==1.6.2
