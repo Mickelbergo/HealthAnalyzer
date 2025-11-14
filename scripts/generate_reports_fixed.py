@@ -34,13 +34,8 @@ def generate_all_reports():
     all_data = loader.load_all_daily_metrics()
     sleep_data = loader.get_sleep_duration()
 
-    # If there's no data, exit gracefully
-    if all_data is None or len(all_data) == 0:
-        print("[WARNING] No health data found. Exiting report generation.")
-        return
-
     # Merge sleep data
-    if sleep_data is not None and not sleep_data.empty:
+    if not sleep_data.empty:
         sleep_data['date'] = pd.to_datetime(sleep_data['date'])
         all_data = all_data.merge(sleep_data, on='date', how='left')
 
